@@ -1,7 +1,10 @@
 First of all you have to install the redux set up.
+
 Once you did with the setup stuff then you have to create a project structure.
---> src foler to your root project.
-then in src please check the below herarchy.
+
+--> src foler to your root project.Then in src please check the below herarchy.
+
+
 ----src
 -------components (Put all your components in this folder)
 -------containers (Put all your containers in this folder)
@@ -24,3 +27,5 @@ const store = createStore(countReducer);
       <SeperateComponentConainer/>
     </Provider>
   );
+  
+  
